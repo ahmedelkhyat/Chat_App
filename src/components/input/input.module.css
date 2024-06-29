@@ -1,0 +1,43 @@
+.input {
+  height: 50px;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #2f2d52;
+  font-size: 18px;
+}
+
+.input input::placeholder {
+  color: lightgray;
+}
+
+.input .send {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input .send img {
+  height: 24px;
+  cursor: pointer;
+}
+
+.input .send input[type="file"] {
+  display: none;
+}
+
+.input .send button {
+  padding: 10px 15px;
+  color: white;
+  background-color: #8da4f1;
+  border: none;
+  cursor: pointer;
+}

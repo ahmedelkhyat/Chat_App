@@ -1,0 +1,48 @@
+.navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ddddf7;
+  background-color: #2f2d52;
+  padding: 10px;
+}
+
+.navbar .logo {
+  font-weight: bold;
+}
+
+.navbar .user {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar .user img {
+  width: 24px;
+  height: 24px;
+  background-color: #ddddf7;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar .user button {
+  background-color: #5d5b8d;
+  color: #ddddf7;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar .user button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+}
